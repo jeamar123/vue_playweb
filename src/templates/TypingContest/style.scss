@@ -1,0 +1,55 @@
+.typing-contest-container{
+  padding: 0px 20px 20px 20px;
+  display: flex;
+
+  .middle-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .right-container{
+    width: 250px;
+    margin-left: 30px;
+  }
+
+  .random-words-wrapper{
+    flex: 1;
+    border: 1px solid #dadce0;
+    background-color: #fbfbfb;
+    padding: 10px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+
+    .word-text{
+      // display: inline-block;
+      font-size: 24px;
+      // margin-right: 5px;
+      padding: 3px 5px;
+      border-radius: 3px;
+      &.active{
+        background-color: #dcdcdc;
+      }
+      &.bad{
+        color: red;
+      }
+      &.good{
+        color: green;
+      }
+    }
+  }
+
+  .text-input-wrapper{
+    height: 50px;
+  }
+
+  .timer-wrapper{
+    margin: 10px 30px 20px 30px;
+    .minute,
+    .separator,
+    .second{
+      // font-size: 20px;
+    }
+  }
+}

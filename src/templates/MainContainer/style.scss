@@ -1,0 +1,39 @@
+.main-container{
+  .main-content-container{
+    padding: 20px;
+    max-width: 1440px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-column-gap: 30px;
+    height: calc(100vh - 60px);
+  }
+}
+
+
+
+
+
+/* Extra Large (xl) */
+@media (max-width: 1280px) { 
+  .main-container{
+    .main-content-container{
+      grid-template-columns: 200px auto;
+    }
+  }
+}
+
+/* Large (lg) */
+@media (max-width: 1024px) { 
+  
+}
+
+/* Medium (md) */
+@media (max-width: 768px) { 
+  
+}
+
+/* Small (sm) */
+@media (max-width: 640px) { 
+  
+}

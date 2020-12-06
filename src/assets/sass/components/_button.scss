@@ -1,0 +1,39 @@
+.btn{
+  min-width: 100px;
+  min-height: 20px;
+  outline: none;
+  background-color: $buttonBgColor;
+  border: 1px solid $buttonBorderColor;
+  color: $buttonFontColor;
+  border-radius: 4px;
+  padding: 8px 25px;
+  cursor: pointer;
+  font-family: $primary-font;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+
+  &--default{
+    background-color: $buttonBgColor;
+    border: 1px solid $buttonBorderColor;
+    color: $buttonFontColor;
+  }
+  &--primary{
+    background-color: #1e88e5;
+    border: 1px solid #1e88e5;
+    color: #FFF;
+  }
+  &--danger{
+    background-color: #e53935;
+    border: 1px solid #e53935;
+    color: #FFF;
+  }
+  &--warning{
+    background-color: #fb8c00;
+    border: 1px solid #fb8c00;
+    color: #FFF;
+  }
+  &--success{
+    background-color: #00897b;
+    border: 1px solid #00897b;
+    color: #FFF;
+  }
+}

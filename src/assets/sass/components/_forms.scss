@@ -1,0 +1,11 @@
+input,
+textarea,
+select{
+  outline: none;
+  border: 1px solid $border-color;
+  border-radius: 2px;
+  padding: 5px 10px;
+  color: #333;
+  // font-family: $secondary-font ;
+  font-family: inherit;
+}

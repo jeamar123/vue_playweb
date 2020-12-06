@@ -1,0 +1,11 @@
+.sidemenu-container{
+
+  .sidemenu-item{
+    padding: 10px 15px;
+    cursor: pointer;
+
+    &.active{
+      background-color: #e0e0e0;
+    }
+  }
+}
